@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6490038127E7B6E200F3BF27 /* EventTimer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490036727E7B6E100F3BF27 /* EventTimer.hpp */; };
+		6490038227E7B6E200F3BF27 /* header.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490036827E7B6E100F3BF27 /* header.hpp */; };
+		6490038327E7B6E200F3BF27 /* netexcept.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490036927E7B6E100F3BF27 /* netexcept.hpp */; };
+		6490038427E7B6E200F3BF27 /* secgroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490036A27E7B6E100F3BF27 /* secgroup.cpp */; };
+		6490038527E7B6E200F3BF27 /* ip4addr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490036B27E7B6E100F3BF27 /* ip4addr.cpp */; };
+		6490038627E7B6E200F3BF27 /* strutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490036C27E7B6E100F3BF27 /* strutil.cpp */; };
+		6490038727E7B6E200F3BF27 /* netsupport.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490036D27E7B6E100F3BF27 /* netsupport.hpp */; };
+		6490038827E7B6E200F3BF27 /* section.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490036E27E7B6E100F3BF27 /* section.hpp */; };
+		6490038927E7B6E200F3BF27 /* netsupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490036F27E7B6E100F3BF27 /* netsupport.cpp */; };
+		6490038A27E7B6E200F3BF27 /* mapip.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490037027E7B6E100F3BF27 /* mapip.hpp */; };
+		6490038B27E7B6E200F3BF27 /* ip4list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490037127E7B6E100F3BF27 /* ip4list.cpp */; };
+		6490038C27E7B6E200F3BF27 /* EventTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490037227E7B6E100F3BF27 /* EventTimer.cpp */; };
+		6490038D27E7B6E200F3BF27 /* header.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490037327E7B6E100F3BF27 /* header.cpp */; };
+		6490038E27E7B6E200F3BF27 /* ip4list.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490037427E7B6E100F3BF27 /* ip4list.hpp */; };
+		6490038F27E7B6E200F3BF27 /* secgroup.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490037527E7B6E100F3BF27 /* secgroup.hpp */; };
+		6490039027E7B6E200F3BF27 /* bytebuffer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490037627E7B6E100F3BF27 /* bytebuffer.hpp */; };
+		6490039127E7B6E200F3BF27 /* ip4addr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490037727E7B6E100F3BF27 /* ip4addr.hpp */; };
+		6490039227E7B6E200F3BF27 /* keyvalue.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490037827E7B6E100F3BF27 /* keyvalue.hpp */; };
+		6490039327E7B6E200F3BF27 /* bytebuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490037927E7B6E100F3BF27 /* bytebuffer.cpp */; };
+		6490039427E7B6E200F3BF27 /* keyvalue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490037A27E7B6E100F3BF27 /* keyvalue.cpp */; };
+		6490039527E7B6E200F3BF27 /* strutil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490037B27E7B6E100F3BF27 /* strutil.hpp */; };
+		6490039627E7B6E200F3BF27 /* section.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490037C27E7B6E100F3BF27 /* section.cpp */; };
+		6490039727E7B6E200F3BF27 /* netexcept.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490037D27E7B6E100F3BF27 /* netexcept.cpp */; };
+		6490039827E7B6E200F3BF27 /* socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490037E27E7B6E200F3BF27 /* socket.cpp */; };
+		6490039927E7B6E200F3BF27 /* socket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490037F27E7B6E200F3BF27 /* socket.hpp */; };
+		6490039A27E7B6E200F3BF27 /* mapip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490038027E7B6E200F3BF27 /* mapip.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6490036727E7B6E100F3BF27 /* EventTimer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = EventTimer.hpp; path = ../EventTimer.hpp; sourceTree = "<group>"; };
+		6490036827E7B6E100F3BF27 /* header.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = header.hpp; path = ../header.hpp; sourceTree = "<group>"; };
+		6490036927E7B6E100F3BF27 /* netexcept.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = netexcept.hpp; path = ../netexcept.hpp; sourceTree = "<group>"; };
+		6490036A27E7B6E100F3BF27 /* secgroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = secgroup.cpp; path = ../secgroup.cpp; sourceTree = "<group>"; };
+		6490036B27E7B6E100F3BF27 /* ip4addr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ip4addr.cpp; path = ../ip4addr.cpp; sourceTree = "<group>"; };
+		6490036C27E7B6E100F3BF27 /* strutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strutil.cpp; path = ../strutil.cpp; sourceTree = "<group>"; };
+		6490036D27E7B6E100F3BF27 /* netsupport.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = netsupport.hpp; path = ../netsupport.hpp; sourceTree = "<group>"; };
+		6490036E27E7B6E100F3BF27 /* section.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = section.hpp; path = ../section.hpp; sourceTree = "<group>"; };
+		6490036F27E7B6E100F3BF27 /* netsupport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = netsupport.cpp; path = ../netsupport.cpp; sourceTree = "<group>"; };
+		6490037027E7B6E100F3BF27 /* mapip.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mapip.hpp; path = ../mapip.hpp; sourceTree = "<group>"; };
+		6490037127E7B6E100F3BF27 /* ip4list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ip4list.cpp; path = ../ip4list.cpp; sourceTree = "<group>"; };
+		6490037227E7B6E100F3BF27 /* EventTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EventTimer.cpp; path = ../EventTimer.cpp; sourceTree = "<group>"; };
+		6490037327E7B6E100F3BF27 /* header.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = header.cpp; path = ../header.cpp; sourceTree = "<group>"; };
+		6490037427E7B6E100F3BF27 /* ip4list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ip4list.hpp; path = ../ip4list.hpp; sourceTree = "<group>"; };
+		6490037527E7B6E100F3BF27 /* secgroup.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = secgroup.hpp; path = ../secgroup.hpp; sourceTree = "<group>"; };
+		6490037627E7B6E100F3BF27 /* bytebuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = bytebuffer.hpp; path = ../bytebuffer.hpp; sourceTree = "<group>"; };
+		6490037727E7B6E100F3BF27 /* ip4addr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ip4addr.hpp; path = ../ip4addr.hpp; sourceTree = "<group>"; };
+		6490037827E7B6E100F3BF27 /* keyvalue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = keyvalue.hpp; path = ../keyvalue.hpp; sourceTree = "<group>"; };
+		6490037927E7B6E100F3BF27 /* bytebuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bytebuffer.cpp; path = ../bytebuffer.cpp; sourceTree = "<group>"; };
+		6490037A27E7B6E100F3BF27 /* keyvalue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = keyvalue.cpp; path = ../keyvalue.cpp; sourceTree = "<group>"; };
+		6490037B27E7B6E100F3BF27 /* strutil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = strutil.hpp; path = ../strutil.hpp; sourceTree = "<group>"; };
+		6490037C27E7B6E100F3BF27 /* section.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = section.cpp; path = ../section.cpp; sourceTree = "<group>"; };
+		6490037D27E7B6E100F3BF27 /* netexcept.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = netexcept.cpp; path = ../netexcept.cpp; sourceTree = "<group>"; };
+		6490037E27E7B6E200F3BF27 /* socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = socket.cpp; path = ../socket.cpp; sourceTree = "<group>"; };
+		6490037F27E7B6E200F3BF27 /* socket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = socket.hpp; path = ../socket.hpp; sourceTree = "<group>"; };
+		6490038027E7B6E200F3BF27 /* mapip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mapip.cpp; path = ../mapip.cpp; sourceTree = "<group>"; };
+		64F43D0527E76A8800094F42 /* libutility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libutility.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F43D0327E76A8800094F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64F43CFC27E76A8800094F42 = {
+			isa = PBXGroup;
+			children = (
+				6490037927E7B6E100F3BF27 /* bytebuffer.cpp */,
+				6490037627E7B6E100F3BF27 /* bytebuffer.hpp */,
+				6490037227E7B6E100F3BF27 /* EventTimer.cpp */,
+				6490036727E7B6E100F3BF27 /* EventTimer.hpp */,
+				6490037327E7B6E100F3BF27 /* header.cpp */,
+				6490036827E7B6E100F3BF27 /* header.hpp */,
+				6490036B27E7B6E100F3BF27 /* ip4addr.cpp */,
+				6490037727E7B6E100F3BF27 /* ip4addr.hpp */,
+				6490037127E7B6E100F3BF27 /* ip4list.cpp */,
+				6490037427E7B6E100F3BF27 /* ip4list.hpp */,
+				6490037A27E7B6E100F3BF27 /* keyvalue.cpp */,
+				6490037827E7B6E100F3BF27 /* keyvalue.hpp */,
+				6490038027E7B6E200F3BF27 /* mapip.cpp */,
+				6490037027E7B6E100F3BF27 /* mapip.hpp */,
+				6490037D27E7B6E100F3BF27 /* netexcept.cpp */,
+				6490036927E7B6E100F3BF27 /* netexcept.hpp */,
+				6490036F27E7B6E100F3BF27 /* netsupport.cpp */,
+				6490036D27E7B6E100F3BF27 /* netsupport.hpp */,
+				6490036A27E7B6E100F3BF27 /* secgroup.cpp */,
+				6490037527E7B6E100F3BF27 /* secgroup.hpp */,
+				6490037C27E7B6E100F3BF27 /* section.cpp */,
+				6490036E27E7B6E100F3BF27 /* section.hpp */,
+				6490037E27E7B6E200F3BF27 /* socket.cpp */,
+				6490037F27E7B6E200F3BF27 /* socket.hpp */,
+				6490036C27E7B6E100F3BF27 /* strutil.cpp */,
+				6490037B27E7B6E100F3BF27 /* strutil.hpp */,
+				64F43D0627E76A8800094F42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64F43D0627E76A8800094F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F43D0527E76A8800094F42 /* libutility.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64F43D0127E76A8800094F42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6490039527E7B6E200F3BF27 /* strutil.hpp in Headers */,
+				6490038A27E7B6E200F3BF27 /* mapip.hpp in Headers */,
+				6490039127E7B6E200F3BF27 /* ip4addr.hpp in Headers */,
+				6490039027E7B6E200F3BF27 /* bytebuffer.hpp in Headers */,
+				6490039927E7B6E200F3BF27 /* socket.hpp in Headers */,
+				6490038727E7B6E200F3BF27 /* netsupport.hpp in Headers */,
+				6490039227E7B6E200F3BF27 /* keyvalue.hpp in Headers */,
+				6490038F27E7B6E200F3BF27 /* secgroup.hpp in Headers */,
+				6490038127E7B6E200F3BF27 /* EventTimer.hpp in Headers */,
+				6490038327E7B6E200F3BF27 /* netexcept.hpp in Headers */,
+				6490038227E7B6E200F3BF27 /* header.hpp in Headers */,
+				6490038E27E7B6E200F3BF27 /* ip4list.hpp in Headers */,
+				6490038827E7B6E200F3BF27 /* section.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64F43D0427E76A8800094F42 /* utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F43D0927E76A8800094F42 /* Build configuration list for PBXNativeTarget "utility" */;
+			buildPhases = (
+				64F43D0127E76A8800094F42 /* Headers */,
+				64F43D0227E76A8800094F42 /* Sources */,
+				64F43D0327E76A8800094F42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = utility;
+			productName = utility;
+			productReference = 64F43D0527E76A8800094F42 /* libutility.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F43CFD27E76A8800094F42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					64F43D0427E76A8800094F42 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 64F43D0027E76A8800094F42 /* Build configuration list for PBXProject "utility" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64F43CFC27E76A8800094F42;
+			productRefGroup = 64F43D0627E76A8800094F42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F43D0427E76A8800094F42 /* utility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F43D0227E76A8800094F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6490038C27E7B6E200F3BF27 /* EventTimer.cpp in Sources */,
+				6490038627E7B6E200F3BF27 /* strutil.cpp in Sources */,
+				6490038D27E7B6E200F3BF27 /* header.cpp in Sources */,
+				6490038527E7B6E200F3BF27 /* ip4addr.cpp in Sources */,
+				6490039827E7B6E200F3BF27 /* socket.cpp in Sources */,
+				6490039427E7B6E200F3BF27 /* keyvalue.cpp in Sources */,
+				6490038427E7B6E200F3BF27 /* secgroup.cpp in Sources */,
+				6490039727E7B6E200F3BF27 /* netexcept.cpp in Sources */,
+				6490039327E7B6E200F3BF27 /* bytebuffer.cpp in Sources */,
+				6490038B27E7B6E200F3BF27 /* ip4list.cpp in Sources */,
+				6490038927E7B6E200F3BF27 /* netsupport.cpp in Sources */,
+				6490039627E7B6E200F3BF27 /* section.cpp in Sources */,
+				6490039A27E7B6E200F3BF27 /* mapip.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64F43D0727E76A8800094F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64F43D0827E76A8800094F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64F43D0A27E76A8800094F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF264WE69M;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		64F43D0B27E76A8800094F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF264WE69M;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F43D0027E76A8800094F42 /* Build configuration list for PBXProject "utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F43D0727E76A8800094F42 /* Debug */,
+				64F43D0827E76A8800094F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F43D0927E76A8800094F42 /* Build configuration list for PBXNativeTarget "utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F43D0A27E76A8800094F42 /* Debug */,
+				64F43D0B27E76A8800094F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F43CFD27E76A8800094F42 /* Project object */;
+}
