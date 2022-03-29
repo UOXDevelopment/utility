@@ -29,6 +29,7 @@
     <ClCompile Include="..\netexcept.cpp" />
     <ClCompile Include="..\netsupport.cpp" />
     <ClCompile Include="..\secgroup.cpp" />
+    <ClCompile Include="..\secparser.cpp" />
     <ClCompile Include="..\section.cpp" />
     <ClCompile Include="..\socket.cpp" />
     <ClCompile Include="..\strutil.cpp" />
@@ -44,6 +45,7 @@
     <ClInclude Include="..\netexcept.hpp" />
     <ClInclude Include="..\netsupport.hpp" />
     <ClInclude Include="..\secgroup.hpp" />
+    <ClInclude Include="..\secparser.hpp" />
     <ClInclude Include="..\section.hpp" />
     <ClInclude Include="..\socket.hpp" />
     <ClInclude Include="..\strutil.hpp" />
