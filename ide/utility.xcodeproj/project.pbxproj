@@ -33,6 +33,8 @@
 		6490039827E7B6E200F3BF27 /* socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490037E27E7B6E200F3BF27 /* socket.cpp */; };
 		6490039927E7B6E200F3BF27 /* socket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6490037F27E7B6E200F3BF27 /* socket.hpp */; };
 		6490039A27E7B6E200F3BF27 /* mapip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6490038027E7B6E200F3BF27 /* mapip.cpp */; };
+		64F4B4DC27F335FB003C93A0 /* secparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B4DA27F335FB003C93A0 /* secparser.cpp */; };
+		64F4B4DD27F335FB003C93A0 /* secparser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 64F4B4DB27F335FB003C93A0 /* secparser.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		6490037F27E7B6E200F3BF27 /* socket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = socket.hpp; path = ../socket.hpp; sourceTree = "<group>"; };
 		6490038027E7B6E200F3BF27 /* mapip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mapip.cpp; path = ../mapip.cpp; sourceTree = "<group>"; };
 		64F43D0527E76A8800094F42 /* libutility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libutility.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F4B4DA27F335FB003C93A0 /* secparser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = secparser.cpp; sourceTree = "<group>"; };
+		64F4B4DB27F335FB003C93A0 /* secparser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = secparser.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				6490036D27E7B6E100F3BF27 /* netsupport.hpp */,
 				6490036A27E7B6E100F3BF27 /* secgroup.cpp */,
 				6490037527E7B6E100F3BF27 /* secgroup.hpp */,
+				64F4B4DA27F335FB003C93A0 /* secparser.cpp */,
+				64F4B4DB27F335FB003C93A0 /* secparser.hpp */,
 				6490037C27E7B6E100F3BF27 /* section.cpp */,
 				6490036E27E7B6E100F3BF27 /* section.hpp */,
 				6490037E27E7B6E200F3BF27 /* socket.cpp */,
@@ -131,6 +137,7 @@
 				6490039927E7B6E200F3BF27 /* socket.hpp in Headers */,
 				6490038727E7B6E200F3BF27 /* netsupport.hpp in Headers */,
 				6490039227E7B6E200F3BF27 /* keyvalue.hpp in Headers */,
+				64F4B4DD27F335FB003C93A0 /* secparser.hpp in Headers */,
 				6490038F27E7B6E200F3BF27 /* secgroup.hpp in Headers */,
 				6490038127E7B6E200F3BF27 /* EventTimer.hpp in Headers */,
 				6490038327E7B6E200F3BF27 /* netexcept.hpp in Headers */,
@@ -168,6 +175,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1330;
+				ORGANIZATIONNAME = "Charles Kerr";
 				TargetAttributes = {
 					64F43D0427E76A8800094F42 = {
 						CreatedOnToolsVersion = 13.3;
@@ -207,6 +215,7 @@
 				6490039727E7B6E200F3BF27 /* netexcept.cpp in Sources */,
 				6490039327E7B6E200F3BF27 /* bytebuffer.cpp in Sources */,
 				6490038B27E7B6E200F3BF27 /* ip4list.cpp in Sources */,
+				64F4B4DC27F335FB003C93A0 /* secparser.cpp in Sources */,
 				6490038927E7B6E200F3BF27 /* netsupport.cpp in Sources */,
 				6490039627E7B6E200F3BF27 /* section.cpp in Sources */,
 				6490039A27E7B6E200F3BF27 /* mapip.cpp in Sources */,

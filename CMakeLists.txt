@@ -27,6 +27,7 @@ add_library(utility
 		mapip.cpp
 		netexcept.cpp
 		netsupport.cpp
+		secparser.cpp
 		secgroup.cpp
 		section.cpp
 		socket.cpp

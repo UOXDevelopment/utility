@@ -12,17 +12,19 @@
 
 
 #include "section.hpp"
+#include "secparser.hpp"
 //=========================================================
-class secgroup_t {
+class secgroup_t final : public secparser_t {
 private:
 	std::unordered_map<std::string,std::unordered_map<std::string,section_t> > _section_types ;
 	
-	auto loadFile(const std::filesystem::path &path)->bool ;
+	//auto loadFile(const std::filesystem::path &path)->bool ;
+	auto processSection(section_t &section) -> void final ;
 public:
-	secgroup_t()=default ;
+	secgroup_t() ;
 	secgroup_t(const std::string &filepath,bool resursive=true,const std::string &extension=".cfg") ;
 	
-	auto load(const std::string &filepath,bool resursive=true,const std::string &extension=".cfg")->bool;
+	//auto load(const std::string &filepath,bool resursive=true,const std::string &extension=".cfg")->bool;
 	auto size() const ->size_t ;
 	auto size(const std::string &type) const ->size_t ;
 	

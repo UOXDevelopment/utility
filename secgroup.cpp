@@ -13,6 +13,10 @@
 // constructor
 //=========================================================
 //=========================================================
+secgroup_t::secgroup_t():secparser_t(){
+	
+}
+//=========================================================
 secgroup_t::secgroup_t(const std::string &filepath,bool resursive,const std::string &extension) :secgroup_t() {
 	if (!filepath.empty()){
 		load(filepath,resursive,extension);
@@ -20,9 +24,19 @@ secgroup_t::secgroup_t(const std::string &filepath,bool resursive,const std::str
 }
 
 //=========================================================
+// processSection
+//========================================================
+//=========================================================
+auto secgroup_t::processSection(section_t &section) ->void {
+	_section_types[section.header().type()][section.header().identifier()]=std::move(section);
+
+}
+
+//=========================================================
 // Load directories/files
 //=========================================================
 //=========================================================
+/*
 auto secgroup_t::loadFile(const std::filesystem::path &path)->bool{
 	auto input = std::ifstream(path.string()) ;
 	auto rvalue = false ;
@@ -76,6 +90,7 @@ auto secgroup_t::load(const std::string &filepath,bool recursive,const std::stri
 	}
 	return rvalue ;
 }
+*/
 //=========================================================
 // Entry mainpulate
 //========================================================
