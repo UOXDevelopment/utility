@@ -9,6 +9,7 @@
 #include <ostream>
 #include <string>
 #include <optional>
+#include <random>
 
 #include "keyvalue.hpp"
 #include "header.hpp"
@@ -19,6 +20,8 @@ private:
 	// We use an vector, as order can be imporant
 	std::vector<keyvalue_t> _entries ;
 	
+	static std::default_random_engine _generator;
+
 public:
 	static auto load(std::istream &input, int &line_number, const std::string &sourcefile)->std::optional<section_t> ;
 	// Constructors
@@ -44,6 +47,13 @@ public:
 	auto last(const std::string &key) const ->const keyvalue_t*;
 	auto last(const std::string &key) -> keyvalue_t*;
 	
+	// Random entry
+	auto any() const -> const keyvalue_t * ;
+	auto any() ->keyvalue_t *;
+	
+	auto operator[](const std::string& value) ->keyvalue_t* ;
+	auto operator[](const std::string& value)const  ->const keyvalue_t* ;
+
 	// Direct access retrevial
 	auto operator[](size_t index) const ->const keyvalue_t& ;
 	auto operator[](size_t index) -> keyvalue_t& ;

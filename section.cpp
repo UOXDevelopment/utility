@@ -14,7 +14,7 @@ using namespace std::string_literals;
 //==============================================================================
 // static/factory method
 //==============================================================================
-
+std::default_random_engine section_t::_generator = std::default_random_engine() ;
 //==============================================================================
 auto section_t::load(std::istream &input, int &line_number, const std::string &sourcefile)->std::optional<section_t> {
 	constexpr auto bufsize = 4096;
@@ -224,6 +224,39 @@ auto section_t::last(const std::string &key) -> keyvalue_t*{
 		return nullptr ;
 	}
 	return &(*iter) ;
+}
+
+
+//==============================================================================
+auto section_t::any() const -> const keyvalue_t * {
+	
+	if (_entries.size()>0) {
+		std::uniform_int_distribution<int> distribution(0,static_cast<int>(_entries.size())-1);
+		auto selection = distribution(_generator) ;
+		return &_entries[selection];
+	}
+	return nullptr;
+}
+
+//==============================================================================
+auto section_t::any() ->keyvalue_t *{
+	if (_entries.size()>0) {
+		std::uniform_int_distribution<int> distribution(0,static_cast<int>(_entries.size())-1);
+		auto selection = distribution(_generator) ;
+		return &_entries[selection];
+	}
+	return nullptr;
+}
+
+
+//==============================================================================
+auto section_t::operator[](const std::string& value) ->keyvalue_t* {
+	return this->last(value);
+}
+//==============================================================================
+auto section_t::operator[](const std::string& value)const  ->const keyvalue_t* {
+	return this->last(value);
+	
 }
 
 //==============================================================================
